@@ -5,7 +5,7 @@ services:
     build:
       context: ../RecetasAPI-SpringBoot
     volumes:
-      - ../RecetasAPI-SpingBoot:/app
+      - ../RecetasAPI-SpringBoot:/app
       - maven-cache:/root/.m2
     ports:
       - "8080:8080"
